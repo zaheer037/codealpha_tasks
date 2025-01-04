@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/generated/
+generated_music.mid
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db

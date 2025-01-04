@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
 from models.music_generator import create_model, generate_sequence, sequence_to_midi
 import os
 
 app = Flask(__name__)
-
+CORS(app) 
 # Initialize the AI model
 model = create_model(input_dim=50, output_dim=50)
 
